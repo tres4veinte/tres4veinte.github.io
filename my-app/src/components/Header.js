@@ -2,14 +2,17 @@ import React, { useEffect, useState } from "react";
 
 const Header = () => {
   const [header, setHeader] = useState(false);
+  const [firstUnderline, setFirstUnderline] = useState(true)
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
       window.scrollY > 50 ? setHeader(true) : setHeader(false);
+      window.scrollY === 1 ? setFirstUnderline(true) : setFirstUnderline(false);
     });
   });
 
   const [activeLink, setActiveLink] = useState("sobre");
+
 
   useEffect(() => {
     const sections = {
@@ -57,7 +60,7 @@ const Header = () => {
         >
           <a
             className={`transition ${
-              activeLink === "sobre" ? " border-b-2 border-[#17bf9e]" : ""
+              activeLink === "sobre"  && !firstUnderline  ? " border-b-2 border-[#17bf9e]" : ""
             }`}
             href="#sobre_section"
             onClick={() => setActiveLink("sobre")}

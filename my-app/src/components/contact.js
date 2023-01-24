@@ -33,7 +33,7 @@ function Contact() {
     <section className="py-24 mt-[-100px] ls:mt-[-180px]" id="contacto_section">
       <div className="container mx-auto lg:px-0 mt-[30px] sls:min-w-[200px]">
         <div className="text-center mt-2 flex flex-col justify-center items-center">
-          <p className="text-[18px] lg:w-[600px] mb-[35px] sl:max-w-[300px] sl:text-[16px]">
+          <p className="text-[20px] lg:w-[600px] mb-[35px] sl:max-w-[300px] sl:text-[16px]">
             Si quieres contactarte con nosotros por alguna consulta puedes
             escribirnos por aqui poniendo tu email y tu mensaje. De otra forma
             mas abajo puedes encontrar todas nuestras redes sociales
@@ -42,7 +42,7 @@ function Contact() {
 
         <div className="">
           <form
-            className="bg-black p-6 rounded-lg shadow-md max-h-[200px] w-3/4 mb-[200px] mx-auto mt-[30px]"
+            className="bg-black p-6 rounded-lg shadow-md max-h-[240px] w-3/4 mb-[200px] mx-auto mt-[30px]"
             onSubmit={handleSubmit}
           >
             <div className="mb-4">
@@ -67,12 +67,12 @@ function Contact() {
               >
                 Message
               </label>
-              <input
-                className="w-full h-32 border border-gray-400 p-2 rounded-lg max-h-[40px]"
+              <textarea
+                className="overflow-hidden w-full h-32 border border-gray-400 p-2 rounded-lg max-h-[70px]"
                 id="message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-              />
+              ></textarea>
             </div>
             <div className="flex items-center justify-center mt-[30px]">
               <button className="transition hover:cursor-pointer space-x-10 flex flex-col items-center justify-center lg:flex-row">

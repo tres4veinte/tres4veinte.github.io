@@ -10,7 +10,7 @@ import foto3 from "../../img/foto3.jpg";
 
 const NewsCarousel = () => {
     return (
-      <Carousel className='flex flex-col  sls:max-w-[230px] ls:max-w-[300px] lg:max-w-[385px] items-center justify-center'>
+      <Carousel className='ls:max-w-[200px]  flex flex-col items-center justify-center'>
                 <div>
                     <img src={foto1} className="cursor-pointer" alt="" />
                     <p className="ls legend">22 de Enero. Lorem Lorem Lorem</p>

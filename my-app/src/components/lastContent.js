@@ -8,7 +8,7 @@ import NewsCarousel from "./carousel/newsCarousel";
 export const LastContent = () => {
   return (
     <section
-      className="py-24 mt-[-120px] ls:mt-[-120px] mr-[40px] ls:container ls:mx-auto"
+      className="py-24 mt-[-120px] ls:mt-[-80px] mr-[40px] ls:container ls:mx-auto"
       
     >
       <Media query="(max-width: 1200px)">

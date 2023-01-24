@@ -11,7 +11,7 @@ import media1 from "../../img/media2.mp4";
 
 const CarouselSection = () => {
     return (
-      <Carousel className='flex flex-col  sls:max-w-[230px] ls:max-w-[300px] lg:max-w-[385px] items-center justify-center'>
+      <Carousel className='ls:max-w-[200px]   flex flex-col lg:max-w-[450px] items-center justify-center'>
                 <div>
                     <img src={foto3} className="cursor-pointer" alt="" />
                     <p className="ls:hidden legend">Lorem ispum lorem</p>

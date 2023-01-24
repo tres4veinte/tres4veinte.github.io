@@ -3,7 +3,7 @@ import CarouselFadeExample from "./carousel/carousel";
 
 export const Media = () => {
   return (
-    <section className="py-24 mt-[-100px] ls:mt-[-200px]">
+    <section className="py-24 mt-[-150px] ls:mt-[-200px]">
       <div className="container mx-auto lg:px-0 mt-[30px]">
         <div className="text-center mt-2 flex flex-col justify-center items-center">
           <p className="text-[20px] lg:w-[600px] mb-[35px] sl:max-w-[300px] sl:text-[16px]">

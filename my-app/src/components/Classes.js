@@ -29,8 +29,8 @@ const Classes = () => {
   ];
 
   return (
-    <section className="py-24 ls:mt-[-270px]  mt-[-100px] " id="clases_section">
-      <div className="container mx-auto lg:px-0 mt-[30px]">
+    <section className="py-24 ls:mt-[-220px]  mt-[-100px] " id="clases_section">
+      <div className="container mx-auto lg:px-0 mt-[10px]">
         <div className="text-center mt-2 flex flex-col justify-center items-center">
           <div className="font-primary text-[42px] mb-8">CLASES</div>
           <p className="text-[20px] lg:w-[600px] mb-[35px] sl:max-w-[300px] sl:text-[16px]">
